@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WaDE Demo Recreation</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!--css reference-->
+  <link href="style.css" rel="stylesheet"/>
+  
+  <!-- Load Leaflet code library - see updates at http://leafletjs.com/download.html -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  
+  <!-- Load jQuery and PapaParse to read data from a CSV file -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+  
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>Header STuff</h1>
+    <p>some header info</p>
+  </header>
+  <!-- side Bar with Controls -->
+  <aside class="aside">
+    <h1>Controls</h1>
+    <br />
+    <button class="button">State Filter</button>
+    <br />
+    <button class="button">Water Source Type</button>
+    <br />
+    <button class="button">Beneficial use</button>
+    <br />
+    <!-- dropdownList of checkboxes and options. -->
+    <div class="multi-selector">
+      <div class="select-field">
+        <input
+        type="text"
+        name=""
+        placeholder="Choose tasks"
+        ="id"
+        =""
+        class="input-selector"
+        />
+        <span class="down-arrow">&blacktriangledown;</span>
+      </div>
+      <div class="list">
+        <label for="task1" class="task">
+          <input type="checkbox" name="" id="task1" />
+          Task #1
+          <span>10 mins</span>
+        </label>
+        <label for="task2" class="task">
+          <input type="checkbox" name="" id="task2" />
+          Task #2
+          <span>20 mins</span>
+        </label>
+        <label for="task3" class="task">
+          <input type="checkbox" name="" id="task3" />
+          Task #3
+          <span>30 mins</span>
+        </label>
+      </div>
+    </div>
+  </aside>
+  
+  <!-- The Map -->
+  <section>
+    <div id="myMapID"></div>
+  </section>
+  
+  <!-- footer -->
+  <footer class="footer">
+    <p>Footer</p>
+  </footer>
+  
+  
+  <!-- local JavaScript files -->
+  <script src="script.js"></script>
+  <script src="leaflet.js"></script>
+  
+</body>
+</html>

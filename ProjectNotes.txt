@@ -1,0 +1,18 @@
+====================================================
+-- Project Notes --
+====================================================
+1) WaDE API not working due to CORS error
+
+2) some sources I'm pulling inspiration from
+https://www.youtube.com/watch?v=DbcLg8nRWEg&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X&index=2&ab_channel=TheCodingTrain
+https://github.com/HandsOnDataViz/leaflet-map-csv
+
+3) try reading in csv data with PapaParse
+
+
+
+
+====================================================
+-- Questions --
+====================================================
+1) what is jQuery and how am I using it with PapaParse to load in csv?  do I need it?

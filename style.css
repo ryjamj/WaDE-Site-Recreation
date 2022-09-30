@@ -1,0 +1,119 @@
+/* HTML Style*/
+/*======================================*/
+.header {
+  background-color: rgb(201, 209, 255);
+  height: 100px;
+  padding-left: 15px;
+}
+
+.footer {
+  background-color: rgb(201, 209, 255);
+  height: 100px;
+  padding-left: 15px;
+}
+
+.aside {
+  background-color: rgb(255, 215, 201);
+  width: 30%;
+  height: 600px;
+  padding-left: 15px;
+  float: left;
+}
+
+.section {
+  background-color: rgb(255, 247, 201);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 30px;
+}
+
+/* Buttons */
+.button {
+  background-color: rgb(48, 152, 81);
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Multi-Select Dropdown */
+.input {
+  outline: none;
+  border: none;
+}
+
+.multi-selector {
+  width: max-content;
+}
+
+.select-field {
+  border: 1px solid rgb(187, 187, 187);
+}
+
+.select-field,
+.task,
+.list {
+  width: 100%;
+  background-color: white;
+  padding: 0.3rem;
+}
+
+.list {
+  box-shadow: 0 30px 60px rgb(0, 0, 0, 0.2);
+  display: none;
+}
+
+.down-arrow {
+  font-size: 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.task {
+  display: block;
+  padding-left: 0;
+}
+
+.task span {
+  float: right;
+  font-size: 0.6rem;
+  padding-top: 6px;
+}
+
+.task:hover {
+  background-color: aliceblue;
+}
+
+.show {
+  display: block;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+/* Map Style*/
+/*======================================*/
+#myMapID {
+  height: 600px;
+}
